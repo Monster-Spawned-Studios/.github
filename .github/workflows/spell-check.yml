@@ -1,0 +1,50 @@
+name: Spell Check
+
+on:
+  push:
+    branches:
+      - production
+      - release/**
+    paths-ignore:
+      - '**/node_modules/**'
+      - '**/dist/**'
+      - '**/build/**'
+      - '**/.git/**'
+      - '**/.github/**'
+  pull_request:
+    branches:
+      - production
+    paths-ignore:
+      - '**/node_modules/**'
+      - '**/dist/**'
+      - '**/build/**'
+      - '**/.git/**'
+      - '**/.github/**'
+  # Allow manual triggering of the workflow
+  workflow_dispatch:
+
+jobs:
+  SpellCheck:
+    name: Spell Check with cSpell [Ubuntu 22.04]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository [v4]
+        uses: actions/checkout@v5
+
+      - name: Set up Node.JS 22 [v6]
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+
+      - name: Install cSpell [npm]
+        run: npm install --no-save -g cspell
+
+      - name: Run cSpell [cspell]
+        run: |
+          cspell --config .vscode/cspell.json "**/*" --no-progress --color
+
+      - name: Upload cSpell Results [artifacts]
+        uses: actions/upload-artifact@v5
+        with:
+          name: cSpell-Results
+          path: .github/workflows/cspell-results.json
