@@ -1,0 +1,103 @@
+# EditorConfig is awesome: https://EditorConfig.org
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+indent_size = 2
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+max_line_length = 100
+
+[*.{json,yml,yaml}]
+indent_size = 2
+indent_style = space
+
+[*.{md,txt}]
+trim_trailing_whitespace = false
+indent_size = 2
+indent_style = space
+max_line_length = 150
+
+[*.{bat,cmd}]
+end_of_line = crlf
+insert_final_newline = true
+indent_size = 2
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.{sh,bash}]
+end_of_line = lf
+insert_final_newline = true
+indent_size = 2
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.{py,pyw,pyc,pyo,pyd,pyi,pyx,pyz}]
+indent_size = 4
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.{js,jsx,ts,tsx}]
+indent_size = 2
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.{css,scss,less}]
+indent_size = 2
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.{html,htm,xhtml}]
+indent_size = 2
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.{php,php3,php4,php5,php6,php7,phps,phtml}]
+indent_size = 4
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.{java,jsp}]
+indent_size = 4
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.{c,cpp,cxx,h,hpp}]
+indent_size = 4
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.{sql,sqlx}]
+indent_size = 2
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.{xml,xsd,wsdl,xsl,xslt}]
+indent_size = 2
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.{ini,cfg,conf,properties}]
+indent_size = 2
+indent_style = space
+charset = utf-8
+
+[*.{log,log.*}]
+indent_size = 2
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+max_line_length = 150

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Repository Security Issues, Bug Reports, Feature Requests, etc. [This is the preferred method for reporting issues]
+    url: mailto:site-admin@monsterspawned.studio?subject=Repository%20Inquiries&body=Please%20report%20security%20vulnerabilities,%20bugs,%20feature%20requests,%20etc.%20here.
+    about: Please report security vulnerabilities, bugs, feature requests, etc. using this link.
+  - name: Licensing And/or Other General Inquiries
+    url: https://monsterspawned.studio/contact/
+    about: Please contact us via the contact page for licensing and other general inquiries.
+  - name: Monster Spawned Studios
+    url: https://monsterspawned.studio/
+    about: Please visit the official Monster Spawned Studios website for more information regarding the organization and its projects.
