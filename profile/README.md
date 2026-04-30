@@ -1,6 +1,6 @@
 # Monster Spawned Studios
 
-Copyright © 2025 Monster Spawned Studios
+Copyright © 2025-2026 Monster Spawned Studios
 
 [https://monsterspawned.studio/](https://monsterspawned.studio/)
 
@@ -8,26 +8,26 @@ Copyright © 2025 Monster Spawned Studios
 
 ## Current Active Projects:
 
-1. UltimateRCON
+1. TavernForge (A merge/mash of SillyTavern and ComfyUI remote image generation, all in one app!)
 
     Details coming **SOON**!
 
-2. NodeForge
+2. ComfyUI-MSS-Login
   
-    Details coming **SOON**!
+    Details visible here: [ComfyUI-MSS-Login](https://github.com/Monster-Spawned-Studios/ComfyUI-MSS-Login/)
 
 3. BootSoundNX
   
-    Update/Fix coming ***VERY SOON*** for the latest Atmosphere version(s).
+    Update/Fix coming ***IN DUE TIME*** for the latest Atmosphere version(s).
 
 4. The Monster Spawned Studios Blog
   
-    Details coming **SOON**!
+    Details here: [The Official Monster Spawned Studios Blog](https://monsterspawned.studio/)
 
 5. The Monster Spawned Studios Flutter app template
   
-    Details coming **SOON**!
+    Details here: [Monster Spawned Studios Flutter App Template](https://github.com/Monster-Spawned-Studios/Flutter-App-Template)
 
-6. The Monster Spawned Studios Discord Bot
+6. An Alexa Plex Skill (Basically `Plexamp` for your Alexa speakers)
   
     Details coming **SOON**!
