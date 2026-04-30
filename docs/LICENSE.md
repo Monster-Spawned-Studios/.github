@@ -1,6 +1,6 @@
 # The Monster Spawned Studios License
 
-Copyright © 2025 [Monster Spawned Studios](https://monsterspawned.studio/)
+Copyright © 2025-2026 [Monster Spawned Studios](https://monsterspawned.studio/)
 
 All rights reserved.
 
