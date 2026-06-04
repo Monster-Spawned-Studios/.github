@@ -6,7 +6,7 @@ Copyright © 2025-2026 Monster Spawned Studios
 
 [All rights reserved.](/docs/LICENSE.md)
 
-## Current Active Projects:
+## Current Active Projects
 
 1. TavernForge (A merge/mash of SillyTavern and ComfyUI remote image generation, all in one app!)
 

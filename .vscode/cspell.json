@@ -1,0 +1,22 @@
+{
+  "version": "0.2",
+  "enabled": true,
+  "allowCompoundWords": false,
+  "caseSensitive": false,
+  "useGitignore": true,
+  "dictionaries": [
+    "en-GB",
+    "en_US",
+    "html",
+    "css",
+    "javascript",
+    "softwareTerms"
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    "**/.git/**",
+    "**/.github/**"
+  ]
+}
